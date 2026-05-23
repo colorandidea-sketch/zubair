@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Waled Ibrahim — Portfolio Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar" aria-label="Header">
+    <div class="container topbar__inner">
+      <div class="brand" aria-label="Tasalla-logo.png">
+        <div class="brand__mark">
+  <img src="Tasalla-logo.png" alt="Tasalia Logo">
+</div>
+        <div class="brand__text">
+          <div class="brand__name">Tasalla</div>
+          <div class="brand__sub"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="hero" aria-label="Profile">
+    <div class="container hero__inner">
+      <section class="profile" aria-label="Main Profile Section">
+        <div class="profile__avatar">
+  <img src="Tasalla-logo.png" alt="Waled Ibrahim Profile Photo">
+</div>
+
+        <h1 class="profile__name">Zubair Hameed</h1>
+        <p class="profile__title">Sales & Marketing Manager</p>
+
+        <div class="profile__actions" aria-label="Quick actions">
+          <a class="icon-pill" href="#contact" aria-label="Call">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+          <a class="icon-pill" href="#contact" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="card" aria-label="Contact Info">
+        <div class="card__header">
+          <h2 class="card__title">Contact Info</h2>
+          <button id="saveContactBtn" class="btn btn--primary" type="button">
+            <i class="fa-solid fa-address-card"></i>
+            <span>SAVE CONTACT</span>
+          </button>
+        </div>
+
+        <div class="info-list" role="list">
+          <div class="info-row" role="listitem">
+            <div class="info-row__icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+            <div class="info-row__body">
+              <div class="info-row__label">Mobile</div>
+              <a class="info-row__value" href="tel:+966555665230">+966555665230</a>
+            </div>
+          </div>
+
+          <div class="info-row" role="listitem">
+            <div class="info-row__icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></div>
+            <div class="info-row__body">
+              <div class="info-row__label">Email</div>
+              <a class="info-row__value" href="mailto:zhameed@Tasalla.co">zhameed@Tasalla.co</a>
+            </div>
+          </div>
+
+          <div class="info-row" role="listitem">
+            <div class="info-row__icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="info-row__body">
+              <div class="info-row__label">Address</div>
+              <div class="info-row__value">Riyadh - Saudi Arabia</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" aria-label="WhatsApp">
+        <div class="card__header">
+          <h2 class="card__title">WhatsApp</h2>
+        </div>
+        <a class="btn btn--whatsapp" href="https://wa.me/966555665230" target="_blank" rel="noopener">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Message on WhatsApp</span>
+        </a>
+      </section>
+
+      <section class="card" aria-label="Visit Website">
+        <div class="card__header">
+          <h2 class="card__title">Visit Website</h2>
+        </div>
+        <a class="btn btn--store" href="https://tasalla.co/" aria-label="Official Website">
+          <i class="fa-solid fa-store"></i>
+          <span>Official Website</span>
+        </a>
+      </section>
+
+      <footer class="footer" aria-label="Footer">
+        <div class="footer__text">Powered by <strong>TASALLA SOLUTIONS</strong></div>
+      </footer>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
